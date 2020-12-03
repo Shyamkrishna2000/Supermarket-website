@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<html lang="en" oncontextmenu="return false">-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Supermarket-Grocery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js" async></script>
+</head>
+<!--<body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">-->
+<body>
+    <header>
+        <div><img class="image-responsive" src="../images/Icon1.png" alt="Icon"></div>
+        <div><a href="../index.html"><h1>SUPERMART</h1></a></div>
+        <div class="dropdown">
+            <button onclick="AccountDetails()" class="dropbtn"><img src="../images/Account.png"></button>
+            <div id="Account" class ="dropdown-content">
+                <span style="padding: 10px;padding-right: 0px; font-size: 1.1em;"><a href="../snippets/Login.html"> Sign in!</a></span>
+                <!-- <span style="padding: 10px;padding-right: 0px; font-size: 1.1em;">Log out!</span> -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn "><a href="#Cart1"><img src="../images/Cart.png"></a></button>
+            <div id="Cart" class="dropdown-content">
+                
+            </div>
+        </div>      
+    </header>
+    <h2>Grocery</h2>
+    <p>All prices are for 1 Kg or 1Lt or 1 pack respectively</p>
+    <div id="Grocery" class="container-fluid">
+        <div id="tiles" class="container items">  
+            <div class="row">
+                <div class="container col-sm-4 col-md-3 col-xs-6 col-xxs-12" style="margin-bottom: 10px">
+                    <figure class="figure cart-items">
+                        <img class="image-responsive item-image" src="../images/rice.jpeg" width="150"
+                        height="150" alt="Rice">
+                        <figcaption class="figcaption">Rice</figcaption>
+                        <span class="item-price">Rs 30</span> 
+                    </figure>
+                    <button class="AddCart">Add to Cart</button>   
+                </div>
+                <div class="container col-sm-4 col-md-3 col-xs-6 col-xxs-12" style="margin-bottom: 10px">
+                    <figure class="figure cart-items">
+                        <img class="image-responsive item-image" src="../images/Wheat.jpeg" width="150" height="150" alt="Wheat">
+                        <figcaption class="figcaption">Wheat</figcaption>
+                        <span class="item-price">Rs 50 </span>
+                    </figure>
+                    <button class="AddCart">Add to Cart</button> 
+                </div>
+                <div class="container col-sm-4 col-md-3 col-xs-6 col-xxs-12" style="margin-bottom: 10px">
+                    <figure class="figure cart-items">
+                        <img class="image-responsive item-image" src="../images/Cooking-Oil.jpg" width="150"
+                        height="150" alt="Cooking Oil">
+                        <figcaption class="figcaption">Cooking Oil</figcaption>
+                        <span class="item-price">Rs 40 </span>
+                    </figure>
+                    <button class="AddCart">Add to Cart</button> 
+                </div>  
+                <div class="container col-sm-4 col-md-3 col-xs-6 col-xxs-12" style="margin-bottom: 10px">
+                    <figure class="figure cart-items">
+                        <img class="image-responsive item-image" src="../images/Biscuit.jpeg" width="150" height="150" alt="Biscuits">
+                        <figcaption class="figcaption">Biscuits</figcaption>
+                        <span class="item-price">Rs 10 </span>
+                    </figure>
+                    <button class="AddCart">Add to Cart</button>            
+                </div>
+                <div class="container col-sm-4 col-md-3 col-xs-6 col-xxs-12" style="margin-bottom: 10px">
+                    <figure class="figure cart-items">
+                        <img class="image-responsive item-image" src="../images/sugar.jpg" width="150" height="150" alt="Sugar">
+                        <figcaption class="figcaption">Sugar</figcaption>
+                        <span class="item-price">Rs 20 </span>
+                    </figure>
+                    <button class="AddCart">Add to Cart</button> 
+                </div>  
+                <div class="container col-sm-4 col-md-3 col-xs-6 col-xxs-12" style="margin-bottom: 10px">
+                    <figure class="figure cart-items">
+                        <img class="image-responsive item-image" src="../images/TeaPowder.jpeg" width="150" height="150" alt="Tea Powder">
+                        <figcaption class="figcaption">Tea Powder</figcaption>
+                        <span class="item-price">Rs 20 </span>
+                    </figure>
+                    <button class="AddCart">Add to Cart</button> 
+                </div>
+                <div class="container col-sm-4 col-md-3 col-xs-6 col-xxs-12" style="margin-bottom: 10px">
+                    <figure class="figure cart-items"> 
+                        <img class="image-responsive item-image" src="../images/pasta.jpg" width="150" height="150" alt="Pasta">
+                        <figcaption class="figcaption">Pasta</figcaption>
+                        <span class="item-price">Rs 100 </span>
+                    </figure>
+                    <button class="AddCart">Add to Cart</button> 
+                </div>
+                <div class="container col-sm-4 col-md-3 col-xs-6 col-xxs-12" style="margin-bottom: 10px">
+                    <figure class="figure cart-items">
+                        <img class="image-responsive item-image" src="../images/Cheese.jpeg" width="150" height="150" alt="Cheese">
+                        <figcaption class="figcaption">Cheese</figcaption>
+                        <span class="item-price">Rs 50</span>
+                    </figure>
+                    <button class="AddCart">Add to Cart</button> 
+                </div>
+                <div class="container col-sm-4 col-md-3 col-xs-6 col-xxs-12" style="margin-bottom: 10px">
+                    <figure class="figure cart-items"> 
+                        <img class="image-responsive item-image" src="../images/butter.jpeg" width="150" height="150" alt="Butter">
+                        <figcaption class="figcaption">Butter</figcaption>
+                        <span class="item-price">Rs 40 </span>
+                    </figure>
+                    <button class="AddCart">Add to Cart</button> 
+                </div>           
+            </div>
+        </div>
+    </div>
+    <h2>Cart for your Groceries</h2>
+    <div id="Cart1" class="Cart-items container">    
+    </div>
+    <div id="Stats" class="container">
+        <div class ="cart-total">
+            <strong class="cart-total-title"> Total:</strong>
+            <span class="cart-total-price">Rs 0 </span>
+        </div>
+        <a href="Payment.html"><button onclick="purchaseClicked()" class="purchaseBtn">PURCHASE</button></a>
+    </div>
+    <footer>
+        <p>1453 Biddie Lane<br>Richmond<br>Virginia<br>23224</p><hr>
+        <p><a href="tel:18418714781">Tel:18418714781</a></p>
+        
+    </footer>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+<!--   <table cellspacing="90px" cellpadding="50px" >
+    <tr > 
+        <td><p style="font-size:40px;"> RICE</p><img src="rice.jpeg" width="250px" height="250px"><p style="font-size:200%;">Price: 30 Per kg</p></td>
+        <td><p style="font-size:40px;"> WHEAT</p><img src="wheat.jpeg" width="250px" height="250px"><p style="font-size:200%">Price: 50 Per kg</p></td>
+        <td><p style="font-size:40px;"> OIL</p><img src="oil.jpeg" width="250px" height="250px"><p style="font-size:200%">Price: 40 Per lt</p></td>
+    </tr>
+    <tr> 
+        <td><p style="font-size:40px;">BISCUIT</p><img src="biscuit.jpeg" width="250px" height="250px"><p style="font-size:200%;">Price: 10 Per kg</p></td>
+        <td><p style="font-size:40px;">SUGAR</p><img src="sugar.jpeg" width="250px" height="250px"><p style="font-size:200%;">Price: 20 Per kg</p></td>
+        <td><p style="font-size:40px;">TEA</p><img src="tea.jpeg" width="250px" height="250px"><p style="font-size:200%;">Price: 15 Per kg</p></td>
+    </tr>
+    <tr> 
+        <td><p style="font-size:40px;">PASTA</p><img src="pasta.jpeg" width="250px" height="250px"><p style="font-size:200%">Price: 12 Per kg</p></td>
+        <td><p style="font-size:40px;">CHEESE</p><img src="cheese.jpeg" width="250px" height="250px"><p style="font-size:200%;">Price: 20 Per kg</p></td>
+        <td><p style="font-size:40px;">BUTTER</p><img src="butter.jpeg" width="250px" height="250px"><p style="font-size:200%;">Price: 25 Per kg</p></td>
+    </tr>
+</table>  
+-->

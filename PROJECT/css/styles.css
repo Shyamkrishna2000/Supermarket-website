@@ -1,0 +1,608 @@
+
+body{
+	font-size: 15px;
+	background-color: #F4F3EE;
+
+}
+.payment { 
+    margin: auto; 
+    width:100%;
+}
+.payment.row{
+    margin: auto;
+}
+header a{
+	color: white;
+}
+header div{
+	float: left;
+}
+figcaption a{
+	color: white;
+}
+header div button{
+	border-radius: 5px;
+	background-color: #344966;
+	border-color: #344966;
+	color: white;
+    cursor: pointer;
+
+}
+.dropdown {
+	float: right;
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 10px;
+    position: relative;
+}
+.dropdown-content { 
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: hidden;
+}
+.show {
+    display: block;
+
+}
+header h1{
+	padding: 10px;
+	margin-left: 20px;
+	margin:10px;
+	font-size: 1.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+header img{
+	text-align: left;
+	margin :10px;
+	float: left;
+}	
+.dropbtn img{
+	margin: 0px;
+    padding: 0px;
+}
+header{
+	margin-top: 0px;
+	height: 70px;
+	background-color: #344966;
+	width: 100%;
+	margin-bottom: 10px;
+}
+footer{
+	background-color:#344966;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+footer a{
+	color: white;
+}
+h2{
+	text-align: center;
+	font-size: 50px;
+}
+p{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+}
+hr{
+	color:white;
+	background-color: white;
+	height: 1px;
+	border:0px;
+	width: 65%;
+}
+.jumbotron{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url('../images/supermarket_2.jpg');
+	background-size: cover;
+	height: 600px;
+	padding: 0px;
+
+}
+.figure{
+	position: relative;
+	margin: 0px;
+	display: table;
+	width: 100%;
+
+}
+
+.figure img{
+	min-width: 100%;
+	min-height: 100%;
+	padding: 0px;
+	height: 200px;
+	object-fit: cover;
+	width: 100%;
+	display: table;
+	border-radius: 8px;
+}
+.figcaption{
+	position: absolute;
+	color: white;
+	left:50%;
+	bottom:20px;
+	width:100%;
+	height: 30px;
+	transform: translate(-50%); 
+	background-color: #a5a4a4;
+	padding:0px;
+	font-size: 1.2em;
+	font-weight: bold;
+	opacity:0.9;
+	display: table-caption;
+	caption-side: bottom;
+	border-radius: 8px;
+    text-align: center;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	color: white;
+}
+a:hover {
+	color:grey;
+	text-decoration:none;
+}
+#tiles{
+	margin-top: 50px;
+
+	text-align: center;
+	position: relative;
+}
+
+.Cart-items{
+    font-size: 1.2em;
+    text-align: center;
+
+}
+.cart-row{
+    display: flex;
+
+}
+.cart-price{
+    width: 20%;
+    font-size:1.2em;
+
+}
+.cart-item-title{
+    padding-left: 20px;
+}
+.cart-item{
+    width: 45%;
+}
+.cart-quantity{
+    width: 35%
+}
+.cart-item-quantity{
+    height: 34px;
+    width: 50px;
+    text-align: center;
+
+}
+.cart-item-image{
+    width: 75px;
+    height: auto;
+}
+.remove-btn{
+    margin-left: 20px;
+    background-color: #344966;
+    border: none;
+    border-radius: 3px;
+    color: white;
+
+}
+#Stats{
+    text-align: center;
+    
+}
+.purchaseBtn{
+    background-color: #344966;
+    border:none;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.3em;
+    margin: 0 auto;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+.AddCart{
+    background-color: #344966;
+    border:none;
+    border-radius: 3px;
+    color: white;
+}
+.cart-total{
+    text-align:end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-total-price{
+    font-size: 1.1em;
+}
+.col-xxs-1, .col-xxs-2, .col-xxs-3, .col-xxs-4,
+.col-xxs-5, .col-xxs-6, .col-xxs-7, .col-xxs-8,
+.col-xxs-9, .col-xxs-10, .col-xxs-11, .col-xxs-12 {
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+#Cart1{
+    width: 50%;
+}
+form { 
+    border: 3px solid #f1f1f1; 
+} 
+/*assign full width inputs*/ 
+  
+input[type=text], 
+input[type=password] { 
+    width: 100%; 
+    padding: 12px 20px; 
+    margin: 8px 0; 
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+} 
+/*set a style for the buttons*/ 
+  
+.login-btn{ 
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 14px 20px; 
+    margin: 8px 0; 
+    border: none; 
+    cursor: pointer; 
+    width: 100%; 
+} 
+/* set a hover effect for the button*/ 
+  
+.login-btn:hover { 
+    opacity: 0.8; 
+} 
+/*set extra style for the cancel button*/ 
+  
+.cancelbtn { 
+    width: auto; 
+    padding: 10px 18px; 
+    background-color: #f44336; 
+} 
+/*centre the display image inside the container*/ 
+  
+.imgcontainer { 
+    text-align: center; 
+    margin: 24px 0 12px 0; 
+} 
+/*set image properties*/ 
+  
+img.avatar { 
+    width: 40%; 
+    border-radius: 50%; 
+} 
+/*set padding to the container*/ 
+  
+.container { 
+    padding: 16px; 
+} 
+/*set the forgot password text*/ 
+  
+span.psw { 
+    float: right; 
+    padding-top: 16px; 
+
+} 
+span.psw a {
+    text-decoration: underline;
+    color: blue;
+}
+span.psw a : link{
+    color: #0000EE;
+}
+
+span.psw a:visited {
+    color: #551A8B; 
+}
+@media (max-width: 384px) {
+    .col-xxs-1,
+    .col-xxs-2,
+    .col-xxs-3,
+    .col-xxs-4,
+    .col-xxs-5,
+    .col-xxs-6,
+    .col-xxs-7,
+    .col-xxs-8,
+    .col-xxs-9,
+    .col-xxs-10,
+    .col-xxs-11 {
+        float: left;
+    }
+
+    .col-xxs-1 {
+        width: 8.333333333333332%;
+    }
+
+    .col-xxs-2 {
+        width: 16.666666666666664%;
+    }
+
+    .col-xxs-3 {
+        width: 25%;
+    }
+
+    .col-xxs-4 {
+        width: 33.33333333333333%;
+    }
+
+    .col-xxs-5 {
+        width: 41.66666666666667%;
+    }
+
+    .col-xxs-6 {
+        width: 50%;
+    }
+
+    .col-xxs-7 {
+        width: 58.333333333333336%;
+    }
+
+    .col-xxs-8 {
+        width: 66.66666666666666%;
+    }
+
+    .col-xxs-9 {
+        width: 75%;
+    }
+
+    .col-xxs-10 {
+        width: 83.33333333333334%;
+    }
+
+    .col-xxs-11 {
+        width: 91.66666666666666%;
+    }
+
+    .col-xxs-12 {
+        width: 100%;
+    }
+
+    .col-xxs-push-1 {
+        left: 8.333333333333332%;
+    }
+
+    .col-xxs-push-2 {
+        left: 16.666666666666664%;
+    }
+
+    .col-xxs-push-3 {
+        left: 25%;
+    }
+
+    .col-xss-push-4 {
+        left: 33.33333333333333%;
+    }
+
+    .col-xxs-push-5 {
+        left: 41.66666666666667%;
+    }
+
+    .col-xxs-push-6 {
+        left: 50%;
+    }
+
+    .col-xxs-push-7 {
+        left: 58.333333333333336%;
+    }
+
+    .col-xxs-push-8 {
+        left: 66.66666666666666%;
+    }
+
+    .col-xxs-push-9 {
+        left: 75%;
+    }
+
+    .col-xxs-push-10 {
+       left: 83.33333333333334%;
+    }
+
+    .col-xxs-push-11 {
+       left: 91.66666666666666%;
+    }
+
+    .col-xxs-pull-1 {
+        right: 8.333333333333332%;
+    }
+
+    .col-xxs-pull-2 {
+        right: 16.666666666666664%;
+    }
+
+    .col-xxs-pull-3 {
+        right: 25%;
+    }
+
+    .col-xxs-pull-4 {
+        right: 33.33333333333333%;
+    }
+
+    .col-xxs-pull-5 {
+        right: 41.66666666666667%;
+    }
+
+    .col-xxs-pull-6 {
+        right: 50%;
+    }
+
+    .col-xxs-pull-7 {
+        right: 58.333333333333336%;
+    }
+
+    .col-xxs-pull-8 {
+        right: 66.66666666666666%;
+    }
+
+    .col-xxs-pull-9 {
+        right: 75%;
+    }
+
+    .col-xxs-pull-10 {
+        right: 83.33333333333334%;
+    }
+
+    .col-xxs-pull-11 {
+        right: 91.66666666666666%;
+    }
+
+    .col-xxs-offset-1 {
+        margin-left: 8.333333333333332%;
+    }
+
+    .col-xxs-offset-2 {
+        margin-left: 16.666666666666664%;
+    }
+
+    .col-xxs-offset-3 {
+        margin-left: 25%;
+    }
+
+    .col-xxs-offset-4 {
+        margin-left: 33.33333333333333%;
+    }
+
+    .col-xxs-offset-5 {
+        margin-left: 41.66666666666667%;
+    }
+
+    .col-xxs-offset-6 {
+        margin-left: 50%;
+    }
+
+    .col-xxs-offset-7 {
+        margin-left: 58.333333333333336%;
+    }
+
+    .col-xxs-offset-8 {
+        margin-left: 66.66666666666666%;
+    }
+
+    .col-xxs-offset-9 {
+        margin-left: 75%;
+    }
+
+    .col-xxs-offset-10 {
+        margin-left: 83.33333333333334%;
+    }
+
+    .col-xxs-offset-11 {
+        margin-left: 91.66666666666666%;
+    }
+}  
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    /*background: url('../images/jumbotron_1200.jpg') no-repeat;*/
+    height: 500px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+.container .jumbotron {
+    /*background: url('../images/jumbotron_992.jpg') no-repeat;*/
+    height: 458px;
+  }
+}
+@media(max-width: 576px){
+.container .jumbotron{
+     height: 200px;
+}
+        
+.container{
+	padding-bottom: 10px;
+}
+.text-block{
+	margin:10px;
+}
+    
+}
+@media(max-width:433px ) and (min-width: 384px){
+    .figcaption{
+        font-size: 0.9em;
+        margin: auto;
+    }
+    .figcaption a {
+        padding-top: 3px;
+        margin-top: 3px;    
+    }
+}
+footer{
+	margin-top: 50px;
+}
+@media screen and (max-width: 300px) { 
+        span.psw { 
+            display: block; 
+            float: none; 
+        } 
+        .cancelbtn { 
+            width: 100%; 
+        } 
+        
+    } 

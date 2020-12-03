@@ -1,0 +1,67 @@
+
+<!DOCTYPE html> 
+<html> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Supermarket-Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+<body> 
+    <header>
+        <div><img class="image-responsive" src="../images/Icon1.png" alt="Icon"></div>
+        <div><a href="../index.html"><h1>SUPERMART</h1></a></div>
+        <div class="dropdown">
+            <button class="dropbtn"><img src="../images/Account.png"></button>
+            <div class ="dropdown-content">
+                <span>Log out!</span>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn "><img src="../images/Cart.png"></button>
+            <div class="dropdown-content">
+            </div>
+        </div>      
+    </header>
+  
+    <h2>Login Form</h2> 
+    <!--Step 1 : Adding HTML-->
+    <form action="/action_page.php">
+        <div class="container main-login">
+        
+      
+            <div class="container Form">
+                <div class="Username">
+                    <label ><b>Username</b></label> 
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                </div>
+                <div class="password">     
+                    <label ><b>Password</b></label> 
+                    <input type="password" placeholder="Enter Password" name="psw" required> 
+                </div>
+                <div>
+                    <a href="../php/login.php"><button class="login-btn" type="submit">Login</button></a>
+                    <input type="checkbox" checked="checked"> Remember me 
+                </div>
+            </div> 
+      
+            <div class="container" style="background-color:#f1f1f1"> 
+                <button type="button" class="cancelbtn">Cancel</button> 
+                <span class="psw">Forgot <a href="#">password?</a></span> 
+            </div>
+        </div> 
+    </form>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script.js"></script>
+    <footer>
+        <p>1453 Biddie Lane<br>Richmond<br>Virginia<br>23224</p><hr>
+        <p><a href="tel:18418714781">Tel:18418714781</a></p>
+        
+    </footer> 
+  
+</body> 
+  
+</html> 
